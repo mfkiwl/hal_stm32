@@ -233,6 +233,10 @@
   match: "^(?:LP)?US?ART\\d+_DE$"
   drive: push-pull
 
+- name: UCPD
+  match: "^UCPD\\d+_CC\\d+N?$"
+  mode: analog
+
 - name: UART_TX / USART_TX / LPUART_TX
   match: "^(?:LP)?US?ART\\d+_TX$"
   bias: pull-up
